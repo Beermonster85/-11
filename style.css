@@ -7,6 +7,10 @@ img {
     max-width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container_main {
     font-family: "Lato", sans-serif;
 }
@@ -66,4 +70,238 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.browse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 95px;
+}
+
+.browseAllProducts {
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #f26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #f26376;
+}
+
+.benefits {
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #222224;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.freeDelivery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefitsHeder {
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.benefitsText {
+    color: #fbfbfbe1;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 320px;
+    margin-top: 16px;
+}
+
+.cartItems {
+    padding-bottom: 40px;
+}
+
+.cartItems2 {
+    padding-bottom: 40px;
+}
+
+.cartItems3 {
+    padding-bottom: 40px;
+}
+
+.cartItems4 {
+    padding-bottom: 40px;
+}
+
+.cartItems5 {
+    padding-bottom: 40px;
+}
+
+.cartItems6 {
+    padding-bottom: 40px;
+}
+
+.shadow {
+    box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.mango1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    background-color: #fff;
+    box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.header_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 110px;
+    padding-right: 22px;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-left: 31px;
+}
+
+.mango1Header {
+    color: #222;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 42px;
+    width: 200px;
+    margin-top: 22px;
+    margin-left: 31px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.mango1Price {
+    color: #575757;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dollars {
+    color: #ef5b70;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mango1Color {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mango1Size {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mango1Quantity {
+    color: #575757;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_input {
+    width: 35px;
+    text-align: center;
+    border-color: #eaeaea;
+}
+
+.thumb {
+    position: relative;
+}
+.card:hover .thumb:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.cart {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
 }
